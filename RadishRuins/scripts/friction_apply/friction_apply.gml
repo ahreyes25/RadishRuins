@@ -1,0 +1,1 @@
+vx = approach(vx, 0, fric_temp); 

@@ -1,0 +1,1 @@
+fric_temp = air_fric;

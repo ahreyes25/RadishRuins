@@ -1,0 +1,1 @@
+fric_temp  = ground_fric;

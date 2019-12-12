@@ -1,0 +1,26 @@
+{
+    "id": "e76dc868-4e8e-499d-8495-257aa369626e",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "e76dc868-4e8e-499d-8495-257aa369626e",
+    "children": [
+        "32c16291-3f91-47de-af89-7efd82afcffa",
+        "ead3b683-fc05-4bd8-953b-1aed7dbddb20",
+        "856dcfe6-dd40-4dd9-9bb0-93089d8b5fed",
+        "2a06947f-5583-42b0-961a-a00078f17a00",
+        "3ca04902-1e8c-4b1c-a2b5-6973b2c4f3bf",
+        "f44bd6c3-f1bc-4b4d-aa96-c68126dfd84f",
+        "92cc831c-7f42-4da3-9695-9c0b3b28379e",
+        "7d34ac96-7266-4b7c-a108-7dd75abc0b53",
+        "4bb04d5a-2ff0-4070-adb1-9e70d1251fcc",
+        "c466e435-d40c-4fc3-942c-c0dfe216ad50",
+        "b4ab600e-762d-4b38-8611-1af1ae68cb79",
+        "e14f236f-f057-4222-84e5-626659158c68",
+        "201642dc-2c61-41af-bda4-3ce722d5bcd4",
+        "c94b1dc4-452e-47ed-a172-d5fd046c1d29"
+    ],
+    "filterType": "GMScript",
+    "folderName": "Util Scripts",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

@@ -1,0 +1,1 @@
+return collision_point(x, y, obj_ladder, false, true);

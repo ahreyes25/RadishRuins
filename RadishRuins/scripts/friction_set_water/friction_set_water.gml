@@ -1,0 +1,1 @@
+fric_temp = water_fric;
