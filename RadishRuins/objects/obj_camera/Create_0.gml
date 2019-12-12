@@ -33,9 +33,9 @@ lead_distance_default_x	= lead_distance_current_x;
 // Create Camera
 x_to					= x;
 y_to					= y;
-width_default			= 320;
+width_default			= 640;
 width_current			= width_default; 
-height_default			= 240;
+height_default			= 480;
 height_current			= height_default
 
 move_speed_scale		= 0.1;

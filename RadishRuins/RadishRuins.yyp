@@ -287,14 +287,6 @@
             }
         },
         {
-            "Key": "44e6a8bc-a403-4350-b13a-4ebc96a3f3f5",
-            "Value": {
-                "id": "c6ce61c5-5417-46be-8dd1-d4bcea4a85a2",
-                "resourcePath": "sprites\/spr_solid_slope_left\/spr_solid_slope_left.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4b9d26f6-d401-42cc-bb1a-f9a24c2fcb12",
             "Value": {
                 "id": "87c1d102-2a69-48af-b548-768b0533041a",
@@ -348,6 +340,14 @@
                 "id": "7131453b-0946-427d-bdad-a0fa837193a0",
                 "resourcePath": "views\/51602d3a-4653-4118-9be6-ca7f3e446159.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "553f7c27-0fe9-4511-80e9-e7b4f0e75eaa",
+            "Value": {
+                "id": "e51c6443-5568-4807-86a6-6d8693d27266",
+                "resourcePath": "sprites\\spr_solid_slope_pass_left\\spr_solid_slope_pass_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -719,6 +719,14 @@
             }
         },
         {
+            "Key": "b6c14d71-7a18-443b-959e-29d293c05d7f",
+            "Value": {
+                "id": "dc0fee07-cb7e-4324-91c4-eca099af7c95",
+                "resourcePath": "sprites\\spr_solid_slope_left\\spr_solid_slope_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b762c92a-e181-437e-935d-0cfad0ae1ff2",
             "Value": {
                 "id": "1f139aef-b375-4963-95cc-266ec1ccf527",
@@ -756,14 +764,6 @@
                 "id": "9a6e3880-0cdb-4772-99db-0b30859ea111",
                 "resourcePath": "views\/bf32e62d-ac97-490b-84aa-532720a8b17c.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "c0f9a6a2-2b39-4493-8d7d-d044d4d07cb4",
-            "Value": {
-                "id": "9549f739-e5b4-47d6-a3f5-16036418d7bf",
-                "resourcePath": "sprites\/spr_solid_slope_pass_left\/spr_solid_slope_pass_left.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
