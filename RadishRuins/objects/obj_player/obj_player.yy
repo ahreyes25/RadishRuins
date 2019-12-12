@@ -71,7 +71,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "f142b81c-0b8f-4569-9e2f-c6fee0c57b4a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "pid",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "a2baf3c0-cc9f-4fd1-bb10-ce38ea4efa20",
     "visible": true

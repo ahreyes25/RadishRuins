@@ -16,6 +16,8 @@ facing				= 1;
 fall_timer			= 0;
 
 state				= undefined;
+facing				= DIR.RIGHT;
+scale				= 1;
 
 wall_left	= place_meeting(x - 1, y, obj_solid);
 wall_right	= place_meeting(x + 1, y, obj_solid);

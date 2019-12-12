@@ -5,9 +5,8 @@
 var _obj  = argument0;
 var _view = argument1;
 
-if (!instance_exists(_obj)) return false;
-if (_obj.sprite_index == undefined) return false;
-if (_obj.sprite_index == noone) return false;
+if (!defined(_obj.sprite_index))
+	return false;
 
 var _sprite_width  = sprite_get_width(_obj.sprite_index);
 var _sprite_height = sprite_get_height(_obj.sprite_index);

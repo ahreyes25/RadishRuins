@@ -1,6 +1,7 @@
 /// @param from_instance?
 /// @param to_instance
 
+#region Arguments
 if (argument_count == 1) {
 	var _from = id;
 	var _to = argument[0];
@@ -9,9 +10,10 @@ else if (argument_count == 2) {
 	var _from = argument[0];
 	var _to = argument[1];
 }
+#endregion
 
-if (!instance_exists(_from)) return;
-if (!instance_exists(_to)) return;
+if (exists(_from)) return;
+if (!exists(_to)) return;
 
 // Check For Facing
 var _facing = false;

@@ -1,12 +1,7 @@
 /// @description	Get Player Input
 /// @param			pid*
 
-#region Arguments
-if (argument_count == 1)
-	var _pid = argument[0];
-else
-	var _pid = pid;
-#endregion
+var _pid = (argument_count == 1) ? argument[0] : pid;
 
 // Keyboard Input
 var _k_right			= global.player_data[_pid, PP.KEY_RIGHT];

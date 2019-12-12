@@ -4,7 +4,7 @@ if (key_left && !key_right) {
 	    vx = approach(vx, 0, fric_temp);   
 	vx = approach(vx, -vx_max_water, accel_temp);
 	
-	facing = -1;
+	facing = DIR.LEFT;
 }
 
 // Swim Right 
@@ -13,5 +13,5 @@ if (key_right && !key_left) {
 	    vx = approach(vx, 0, fric_temp);   
 	vx = approach(vx, vx_max_water, accel_temp);
 	
-	facing = 1;
+	facing = DIR.RIGHT;
 }

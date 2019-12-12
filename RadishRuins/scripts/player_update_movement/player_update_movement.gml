@@ -1,15 +1,6 @@
-/// @param entity*
+/// @param instance*
 
-#region Arguments
-if (argument_count == 1)
-	var _obj = argument[0];
-else
-	var _obj = id;
-#endregion
-
-#region Exit Conditions
-if (!instance_exists(_obj)) return;
-#endregion
+var _obj = (argument_count == 1) ? argument[0] : id;
 
 _obj.ground_accel		= global.movement_data[_obj.entity, MOVE.GROUND_ACCEL];
 _obj.ground_fric		= global.movement_data[_obj.entity, MOVE.GROUND_FRIC];

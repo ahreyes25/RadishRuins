@@ -2,9 +2,10 @@
 
 var _object = argument0;
 
-if (!instance_exists(_object)) return 1;
+if (!exists(_object))
+	return DIR.RIGHT;
 
 if (_object.x > x)
-	image_xscale = 1;
+	image_xscale = DIR.RIGHT;
 else
-	image_xscale = -1;
+	image_xscale = DIR.LEFT;

@@ -4,7 +4,7 @@
 var _object = argument0;
 var _range  = argument1;
 
-if (instance_exists(_object)) {
+if (exists(_object)) {
 	if (distance_to_object(_object) <= _range) {
 	
 		var _x = x;
