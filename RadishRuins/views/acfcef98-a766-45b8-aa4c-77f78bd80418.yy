@@ -4,7 +4,7 @@
     "mvc": "1.1",
     "name": "acfcef98-a766-45b8-aa4c-77f78bd80418",
     "children": [
-        "c141568f-4e8d-4258-9d23-944fb6b1719a"
+        "a0c4f876-1729-4906-877d-91a2b15ec6ba"
     ],
     "filterType": "GMObject",
     "folderName": "Environment Objects",

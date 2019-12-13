@@ -40,7 +40,7 @@ height_current			= height_default
 move_speed_scale		= 0.06;
 
 camera	= camera_create();
-viewmat = matrix_build_lookat(x, y, -room_height - 100, x, y, 0, 0, 1, 0);
+viewmat = matrix_build_lookat(x, y, -100, x, y, 0, 0, 1, 0);
 projmat = matrix_build_projection_ortho(width_default, height_default, 1.0, 32000.0);
 camera_set_view_mat(camera, viewmat);
 camera_set_proj_mat(camera, projmat);

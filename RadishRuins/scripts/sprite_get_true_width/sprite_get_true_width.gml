@@ -1,5 +1,5 @@
 /// @param sprite_index
 
-var _width = abs(sprite_get_bbox_left(argument0) - sprite_get_bbox_right(argument0)) + 1;
-var _scaled_width = _width * abs(image_xscale);
-return _scaled_width;
+var _sprite = (argument_count == 1) ? argument[0] : sprite_index;
+
+return abs(sprite_get_bbox_left(_sprite) - sprite_get_bbox_right(_sprite)) + 1;

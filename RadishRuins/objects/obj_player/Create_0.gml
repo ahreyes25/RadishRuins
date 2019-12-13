@@ -27,5 +27,8 @@ sfx_walk_1_inst		= undefined;
 sfx_walk_2_sound	= undefined;
 sfx_walk_2_inst		= undefined;
 
-light = instance_create_layer(x, y, "Instances", obj_light_full);
-light.owner = id;
+// Lights
+lights = light_double_create(x, y - sprite_get_true_height() / 2);
+
+phy_body = instance_create_layer(x, y, "Instances", obj_physics_body);
+phy_body.owner = id;
