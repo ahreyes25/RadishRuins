@@ -33,12 +33,11 @@ lead_distance_default_x	= lead_distance_current_x;
 // Create Camera
 x_to					= x;
 y_to					= y;
-width_default			= 640;
+width_default			= global.screen_height * 0.75;
 width_current			= width_default; 
-height_default			= 480;
+height_default			= global.screen_width  * 0.75;
 height_current			= height_default
-
-move_speed_scale		= 0.1;
+move_speed_scale		= 0.06;
 
 camera	= camera_create();
 viewmat = matrix_build_lookat(x, y, -room_height - 100, x, y, 0, 0, 1, 0);

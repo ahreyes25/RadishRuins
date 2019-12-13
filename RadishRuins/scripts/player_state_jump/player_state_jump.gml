@@ -8,12 +8,8 @@ move_left_right();
 friction_apply();
 
 // Jump Upwards
-if (y > jump_target_y && key_jump)
-	vy = approach(vy, -vy_max, 1);
-else {
-	can_jump = false;	
-	vy *= 0.50;
-}
+if (key_jump_pressed)
+	vy = -vy_max;
 
 // Variable Jumping
 if (key_jump_released) {
