@@ -26,3 +26,6 @@ sfx_walk_1_sound	= undefined;
 sfx_walk_1_inst		= undefined;
 sfx_walk_2_sound	= undefined;
 sfx_walk_2_inst		= undefined;
+
+light = instance_create_layer(x, y, "Instances", obj_light_full);
+light.owner = id;

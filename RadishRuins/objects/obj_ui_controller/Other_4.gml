@@ -40,3 +40,6 @@ top_left		= surface_create(quad_width, quad_height);
 top_right		= surface_create(quad_width, quad_height);
 hud_scale		= 1.0;
 hud_alpha		= 1.0;
+
+// Lighting
+light_surface	= surface_create(room_width, room_height);

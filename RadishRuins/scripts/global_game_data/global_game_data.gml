@@ -44,7 +44,7 @@ audio_falloff_set_model(audio_falloff_linear_distance);
 audio_master_gain(global.sound_mult);
 
 // Screen Resolution
-global.screen_width		= 562;
-global.screen_height	= 1218;
+global.screen_width		= 562;	// display_get_width();
+global.screen_height	= 1218;	// display_get_height();
 
 // Game Colors
