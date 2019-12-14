@@ -591,11 +591,27 @@
             }
         },
         {
+            "Key": "67484c30-a30d-494c-8966-d1cc9d275896",
+            "Value": {
+                "id": "f0f1aced-46fd-48db-9de0-50dd7b44bf33",
+                "resourcePath": "sounds\\sfx_hidden_jingle\\sfx_hidden_jingle.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "68959500-f149-4e81-8b93-4f914dcb4f4e",
             "Value": {
                 "id": "f841371e-406a-40ee-b928-fb562fd0a22c",
                 "resourcePath": "scripts\/global_move_data\/global_move_data.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "698c3d01-49ad-4932-9646-b422b5b15644",
+            "Value": {
+                "id": "14f14f70-67f0-41ef-bcb0-999a950def92",
+                "resourcePath": "sounds\\sfx_player_death\\sfx_player_death.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -636,6 +652,14 @@
                 "id": "7c851b82-eead-4f17-8b4e-91ad1fecd486",
                 "resourcePath": "sprites\/spr_player_mask\/spr_player_mask.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "739ec52f-d95d-4c17-98fb-191a1582f4bc",
+            "Value": {
+                "id": "5ad8884d-4deb-4b83-8c1f-bec7d3dc6d03",
+                "resourcePath": "sounds\\sfx_jewel_collect\\sfx_jewel_collect.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -791,6 +815,14 @@
             }
         },
         {
+            "Key": "8e0c5084-24de-4a40-bc9f-bd90f9dd42d6",
+            "Value": {
+                "id": "74c893fa-b61c-413d-9602-ae4293ea584f",
+                "resourcePath": "sprites\\spr_jewel\\spr_jewel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "90d66a5c-4f7a-4362-8c5a-7c3594783534",
             "Value": {
                 "id": "bf92c727-f606-45ad-a779-c3bd96726c76",
@@ -820,6 +852,14 @@
                 "id": "6ff260d4-501e-49a1-be7d-f0637ec92951",
                 "resourcePath": "options\/tvos\/options_tvos.yy",
                 "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
+            "Key": "938dcb99-59b2-4409-a3e8-1dbc7098e883",
+            "Value": {
+                "id": "0e0f7056-37e3-4b61-a816-9aa7c5a00c35",
+                "resourcePath": "objects\\obj_jewel\\obj_jewel.yy",
+                "resourceType": "GMObject"
             }
         },
         {

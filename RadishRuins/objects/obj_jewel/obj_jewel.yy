@@ -1,54 +1,54 @@
 {
-    "id": "16d92b7e-2dc6-40c5-a183-72f9a8da2b8e",
+    "id": "938dcb99-59b2-4409-a3e8-1dbc7098e883",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_game_controller",
+    "name": "obj_jewel",
     "eventList": [
         {
-            "id": "f46f7af8-b894-472c-812d-c18df6d318df",
+            "id": "96f70cc3-be39-4222-b27a-9232d7c01e14",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "16d92b7e-2dc6-40c5-a183-72f9a8da2b8e"
+            "m_owner": "938dcb99-59b2-4409-a3e8-1dbc7098e883"
         },
         {
-            "id": "0965b6be-5251-4180-8d96-ce1e4a0a403c",
+            "id": "a81cf30f-ec6c-4430-8675-728658c2563c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "16d92b7e-2dc6-40c5-a183-72f9a8da2b8e"
+            "eventtype": 2,
+            "m_owner": "938dcb99-59b2-4409-a3e8-1dbc7098e883"
         },
         {
-            "id": "e6dd7543-1214-4ee8-a824-c6d02d0164e8",
+            "id": "bf386a9e-e36a-49e8-98e8-c1624f2f9937",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 3,
-            "m_owner": "16d92b7e-2dc6-40c5-a183-72f9a8da2b8e"
+            "enumb": 7,
+            "eventtype": 7,
+            "m_owner": "938dcb99-59b2-4409-a3e8-1dbc7098e883"
         },
         {
-            "id": "4c783c03-343b-4f38-8b6c-3f62747f7cf4",
+            "id": "85732909-9187-4bb4-8b2d-c00250d93164",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "16d92b7e-2dc6-40c5-a183-72f9a8da2b8e"
+            "m_owner": "938dcb99-59b2-4409-a3e8-1dbc7098e883"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -61,8 +61,23 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "e09d486a-9102-4e34-8a97-999420390630",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "light",
+            "varType": 3
+        }
+    ],
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "8e0c5084-24de-4a40-bc9f-bd90f9dd42d6",
     "visible": true
 }

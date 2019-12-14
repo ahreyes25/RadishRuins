@@ -17,8 +17,17 @@ if (!stored_tiles) {
 // Touching Hidden Block
 var _player = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_player, false, false);
 if (defined(_player)) {
+	
+	// Zoom Camera
 	camera_set_zoom_factor(0.6, -1, 0.1);
 	
+	// Play Sound
+	if (!played_sound) {
+		sfx_play_array(sfx_hidden_jingle);
+		played_sound = true;
+	}
+	
+	// Hide Tiles
 	if (!hid_tiles) {
 		for (var i = 0; i < ds_list_size(tiles); i++) {
 			var _tile_data	= tiles[| i];
@@ -31,8 +40,11 @@ if (defined(_player)) {
 	shown_tiles = false;
 }
 else {
+	
+	// Reset Camera Zoom
 	camera_reset_zoom_factor();
 	
+	// Show Tiles
 	if (!shown_tiles) {
 		for (var i = 0; i < ds_list_size(tiles); i++) {
 			var _tile_data	= tiles[| i];
