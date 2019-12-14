@@ -1,5 +1,6 @@
 /// player_state_ladder
 
+#region Climb Ladder
 vx = 0;
 vy = 0;
 
@@ -45,3 +46,12 @@ else if (state == player_state_ladder) {
 	previous_state	= state;
 	state			= player_state_idle;
 }
+#endregion
+
+// Walk Sounds
+if ((current_frame() == 0 || current_frame() == 2) && vy != 0) {
+	if (!sfx_is_playing_array(sfx_walk_wood_inst))
+		sfx_walk_wood_inst = sfx_play_array(sfx_emitter, sfx_walk_wood_sound);
+}
+else
+	sfx_stop_array(sfx_walk_wood_inst);	

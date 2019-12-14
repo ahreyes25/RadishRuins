@@ -2,7 +2,7 @@
 if (debugging_res) {
 	draw_set_alpha(0.8);
 	draw_set_color(c_black);
-	draw_rectangle(0, 0, width, height, false);
+	draw_rectangle(0, 0, global.screen_width, global.screen_height, false);
 	draw_set_alpha(1.0);
 	draw_set_color(c_white);
 
@@ -10,8 +10,8 @@ if (debugging_res) {
 	draw_set_valign(fa_center);
 	
 	var _line_space = string_height("A") * 1.1;
-	var _x	 = surface_get_width(application_surface) / 2;
-	var _y	 = (height / 2) - ((_line_space * menu_length) / 2);
+	var _x	 = global.screen_width / 2;
+	var _y	 = (global.screen_height / 2) - ((_line_space * menu_length) / 2);
 	
 	for (var i = 0; i < menu_length; i++) {
 		var _option = resolutions[i];
@@ -32,7 +32,7 @@ if (debugging_res) {
 if (debugging_hud) {
 	draw_set_alpha(0.8);
 	draw_set_color(c_black);
-	draw_rectangle(0, 0, width, height, false);
+	draw_rectangle(0, 0, global.screen_width, global.screen_height, false);
 	draw_set_alpha(1.0);
 	draw_set_color(c_white);
 

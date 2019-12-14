@@ -2,6 +2,7 @@
 focus_target_current	= obj_player;
 focus_target_default	= focus_target_current;
 focus_target_time		= undefined;
+focus_target_hard		= false;
 if (exists(focus_target_current)) {
 	x = focus_target_current.x;
 	y = focus_target_current.y;
@@ -33,15 +34,13 @@ lead_distance_default_x	= lead_distance_current_x;
 // Create Camera
 x_to					= x;
 y_to					= y;
-width_default			= global.screen_height * 0.75;
-width_current			= width_default; 
-height_default			= global.screen_width  * 0.75;
-height_current			= height_default
+width_current			= global.screen_width; 
+height_current			= global.screen_height;
 move_speed_scale		= 0.06;
 
 camera	= camera_create();
 viewmat = matrix_build_lookat(x, y, -100, x, y, 0, 0, 1, 0);
-projmat = matrix_build_projection_ortho(width_default, height_default, 1.0, 32000.0);
+projmat = matrix_build_projection_ortho(width_current, height_current, 1.0, 32000.0);
 camera_set_view_mat(camera, viewmat);
 camera_set_proj_mat(camera, projmat);
 view_camera[0] = camera;

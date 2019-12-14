@@ -1,12 +1,6 @@
-rope = instance_create_layer(x + (20 * sign(image_xscale)), y - 76, "Instances", obj_lamp_rope);
-lamp = instance_create_layer(x + (20 * sign(image_xscale)), y - 66, "Instances", obj_lamp);
+var _hook_x = x + (19 * sign(image_xscale));
+var _hook_y = y - 66;
 
-physics_joint_weld_create(id, rope, rope.x, rope.y, 0, 0, 0, 0);
-physics_joint_weld_create(rope, lamp, lamp.x, lamp.y, 0, 0, 0, 0);
-physics_joint_distance_create(id, rope, rope.x, rope.y, rope.x, rope.y, 0);
-physics_joint_distance_create(rope, lamp, lamp.x, lamp.y, lamp.x, lamp.y, 0);
-physics_joint_revolute_create(id, rope, rope.x, rope.y, 80, 360, 1, 0, 0, 0, 0);
-physics_joint_revolute_create(rope, lamp, lamp.x, lamp.y, 80, 360, 1, 0, 0, 0, 0);
-
-//physics_joint_rope_create(id, rope, rope.x, rope.y, rope.x, rope.y, 0, false);
-//physics_joint_rope_create(rope, lamp, lamp.x, lamp.y, lamp.x, lamp.y, 0, false);
+lamp		= instance_create_layer(_hook_x, _hook_y, "Instances", obj_lamp);
+lamp.post	= id;
+joint		= physics_joint_revolute_create(id, lamp, _hook_x, _hook_y, 0, 0, 0, 0, 0, 0, 0);

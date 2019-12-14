@@ -21,9 +21,9 @@ if (debugging_res) {
 // Select
 if (keyboard_check_pressed(vk_enter)) {
 	var _res	= resolutions[menu_index];
-	var _width	= _res[1] / 2;
-	var _height	= _res[0] / 2;
-	_window_set_resolution(_width, _height);
+	var _width	= _res[0] / 2;
+	var _height	= _res[1] / 2;
+	window_update_resolution(_width, _height);
 }
 #endregion
 
@@ -38,26 +38,5 @@ if (debugging_hud) {
 	if (keyboard_check(vk_right))
 		hud_alpha += 0.01;
 	hud_alpha = clamp(hud_alpha, 0, 1);
-}
-#endregion
-
-#region New Screen Resolution
-if (update_res) {
-	
-	window_set_size(width, height);
-		
-	// Maintain Aspect Ratio		
-	if (height >= width)
-		height = width * aspect_ratio;
-		
-	display_set_gui_size(width, height);
-	surface_resize(application_surface, width, height);
-	quad_width	= surface_get_width(application_surface)  / 2;
-	quad_height	= surface_get_height(application_surface) / 2;
-	
-	// Center Window
-	alarm[0] = 1;
-	
-	update_res = false;
 }
 #endregion

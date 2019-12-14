@@ -15,7 +15,7 @@ var _alpha			= argument4;
 var _flicker		= argument5;
 var _flicker_amount	= argument6;
 
-var _light				= instance_create_layer(_x, _y, "Instances", obj_light);
+var _light				= instance_create_layer(_x, _y, "Lights", obj_circle_light);
 _light.owner			= _owner;
 _light.scale			= _scale;
 _light.alpha			= _alpha;

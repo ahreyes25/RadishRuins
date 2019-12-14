@@ -42,9 +42,9 @@ global.music_mult			= 1.0;
 // Audio Emitters
 audio_falloff_set_model(audio_falloff_linear_distance);
 audio_master_gain(global.sound_mult);
+audio_listener_orientation(0, 1, 0, 0, 0, 1);
 
-// Screen Resolution
-global.screen_width		= 562;	// display_get_width();
-global.screen_height	= 1218;	// display_get_height();
+global.screen_width  = 2688; 
+global.screen_height = 1242;
 
 // Game Colors

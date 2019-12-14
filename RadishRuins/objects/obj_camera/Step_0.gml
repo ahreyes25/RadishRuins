@@ -56,10 +56,16 @@ y_to = clamp(y_to, height_current / 2, room_height - height_current / 2);
 #endregion
 		
 #region Move Camera Object
-if (!locked_x)
-	x += (x_to - x) * move_speed_scale;
-if (!locked_y)
-	y += (y_to - y) * move_speed_scale;
+if (!focus_target_hard) {
+	if (!locked_x)
+		x += (x_to - x) * move_speed_scale;
+	if (!locked_y)
+		y += (y_to - y) * move_speed_scale;
+}
+else {
+	x = focus_target_current.x;
+	y = focus_target_current.y;
+}
 #endregion	
 
 #region Lock Camera

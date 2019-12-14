@@ -1,0 +1,1 @@
+return collision_point(x, y, obj_ladder, false, false) || collision_point(x, y + 1, obj_solid_pass, false, false);

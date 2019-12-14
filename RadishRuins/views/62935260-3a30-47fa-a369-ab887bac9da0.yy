@@ -14,7 +14,9 @@
         "996f8877-2e95-4b97-9faa-041b2de1f18d",
         "ad06972e-6196-41d1-82e3-e12a21308baa",
         "09bcc2df-1d0f-46e2-9ac1-59ae3070ace7",
-        "b567f977-3d41-4658-9ef4-b799db2d3214"
+        "b567f977-3d41-4658-9ef4-b799db2d3214",
+        "3754e678-55f4-4cd5-a606-c00f7355b533",
+        "3376cd4c-b8d4-4e5d-b7a6-5db29c21c973"
     ],
     "filterType": "GMObject",
     "folderName": "Solid Objects",

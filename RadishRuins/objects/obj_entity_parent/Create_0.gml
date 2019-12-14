@@ -11,6 +11,8 @@ takes_input			= false;
 on_ground			= on_ground_check();
 touching_ladder		= touching_ladder_check();
 in_water			= false;
+on_rock				= undefined;
+on_wood				= undefined;
 
 facing				= 1;
 fall_timer			= 0;

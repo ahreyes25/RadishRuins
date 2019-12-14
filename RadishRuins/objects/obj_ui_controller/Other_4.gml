@@ -2,36 +2,32 @@
 
 // Debug Menu
 debugging	= false;
-menu_index	= 0;
+menu_index	= 1;
 resolutions	= [
 	// iphones
-	[828,	1792],	// iphone xr
-	[1242,	2688],	// iphone xs max
-	[1125,	2436],	// iphone x / iphone xs
-	[1080,	1920],	// iphone 8 plus
-	[750,	1334],	// iphone 8
-	[1080,	1920],	// iphone 7 plus
-	[750,	1334],	// iphone 7
+	[1792,	828],	// iphone xr
+	[2688,	1242],	// iphone xs max
+	[2436,	1125],	// iphone x / iphone xs
+	[1920,	1080],	// iphone 8 plus
+	[1334,	750],	// iphone 8
+	[1920,	1080],	// iphone 7 plus
+	[1334,	750],	// iphone 7
 	
 	// ipads
-	[2048,	2732],	// ipad pro
-	[1536,	2048],	// ipad 3rd & 4th gen
+	[2732,	2048],	// ipad pro
+	[2048,	1536],	// ipad 3rd & 4th gen
 	
 	// android
-	[1440,	2560],
-	[1440,	2960],
-	[1200,	1920],
-	[800,	1280],
-	[1700,	2560]
+	[2560,	1440],
+	[2960,	1440],
+	[1920,	1200],
+	[1280,	800],
+	[2560,	1700]
 ];
 menu_length	= array_length_1d(resolutions);
 
-base_width		= global.screen_height / 2;		// starting width
-base_height		= global.screen_width  / 2;		// starting height
-width			= base_width;		
-height			= base_height;		
-aspect_ratio	= height / width;
-update_res		= true;
+var _resolution = resolutions[menu_index];
+window_update_resolution(_resolution[_.X] / 2, _resolution[_.Y] / 2);
 
 // HUD
 quad_width		= surface_get_width(application_surface)  / 2;
