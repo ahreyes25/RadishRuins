@@ -791,6 +791,14 @@
             }
         },
         {
+            "Key": "8b2f36aa-cb31-4f0d-9997-34ca9d1f8da6",
+            "Value": {
+                "id": "ef254b58-6c66-467b-b62a-7363bcb9b07f",
+                "resourcePath": "sounds\\sfx_wood_creak\\sfx_wood_creak.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8bdb7291-2b17-4631-a04f-9dd20148523b",
             "Value": {
                 "id": "9d3fbb51-6b81-4a86-8951-c358650003e8",
@@ -868,6 +876,14 @@
                 "id": "94f91e0d-2cee-49f2-b4fc-4ced3e3a1fbe",
                 "resourcePath": "scripts\/player_state_ladder\/player_state_ladder.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9740a868-699e-4cdd-88a8-aa7cc4a749dc",
+            "Value": {
+                "id": "01b0f83a-0c6d-45e3-b174-2c1037315a66",
+                "resourcePath": "sounds\\sfx_glass_2\\sfx_glass_2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1220,6 +1236,14 @@
                 "id": "367b827a-a709-48b5-9d59-6ba99cfe7146",
                 "resourcePath": "scripts\/friction_set_water\/friction_set_water.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "cd26ea65-75f7-4c84-808b-d0972dafaa8e",
+            "Value": {
+                "id": "69e575ad-f408-4e7b-acd1-e8aace3b98f8",
+                "resourcePath": "sounds\\sfx_glass_1\\sfx_glass_1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
