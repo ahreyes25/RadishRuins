@@ -26,3 +26,6 @@ wall_right	= place_meeting(x + 1, y, obj_solid);
 
 can_be_hurt_default	= true;
 can_be_hurt			= can_be_hurt_default;
+
+// Lights
+lights = light_double_create(x, y - sprite_get_true_height() / 2, 0.75, 0.5);

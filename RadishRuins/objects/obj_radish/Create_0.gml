@@ -1,19 +1,13 @@
 event_inherited();
 
 // General 
-//pid			= PLAYER.P1;	// used for multiplayer -- set in Variable Definitions
-takes_input		= true;			// player vs npc
-has_control		= true;			// used for cutscenes
-can_be_hurt		= true;
-hurt_time		= 60;
+takes_input		= false;		// player vs npc
+has_control		= false;		// used for cutscenes
 entity			= ENTITY.PLAYER;
 player_update_movement();
 
-// Alarms
-alarm_hurt		= 0;
-
 // States
-state			= player_state_idle;
+state			= radish_state_idle;
 previous_state	= undefined;
 
 // Sounds
