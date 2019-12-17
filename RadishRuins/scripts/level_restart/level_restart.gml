@@ -7,3 +7,6 @@ var _x			= _pos[0];
 var _y			= _pos[1];
 obj_player.x	= _x;
 obj_player.y	= _y;
+
+// Other
+obj_player.has_control = true;

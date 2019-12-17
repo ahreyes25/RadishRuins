@@ -1,7 +1,9 @@
 /// @description	Get Player Input
-/// @param			pid*
+/// @param			id*
 
-var _pid = (argument_count == 1) ? argument[0] : pid;
+var _id  = (argument_count == 1) ? argument[0] : id;
+var _pid = _id.pid;
+if (!_id.has_control) return;
 
 // Keyboard Input
 var _k_right			= global.player_data[_pid, PP.KEY_RIGHT];
