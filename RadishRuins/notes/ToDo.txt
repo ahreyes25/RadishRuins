@@ -1,0 +1,17 @@
+- persistent keys?
+- heart icon
+- items icons
+- moving platforms
+- enemies
+
+- Items:
+	- item 1: pluck turnips (gardner’s glove)
+	- item 2: swimming item 
+	- item 3: break through crates item, roll attack 
+- bosses:
+	- boss 1: jump on them
+	- boss 2: throw turnips at them
+	- boss 3: underwater boss
+	- boss 4: roll into armored parts to break armor, also have
+	water area and throwing turnips (armored octopus)
+
