@@ -21,12 +21,6 @@ if (defined(_player)) {
 	// Zoom Camera
 	camera_set_zoom_factor(0.6, -1, 0.1);
 	
-	// Play Sound
-	if (!played_sound) {
-		sfx_play_array(sfx_hidden_jingle);
-		played_sound = true;
-	}
-	
 	// Hide Tiles
 	if (!hid_tiles) {
 		for (var i = 0; i < ds_list_size(tiles); i++) {

@@ -14,7 +14,22 @@ enum MOVE
 }
 #endregion
 
-#region Player 1 Input Data
+global.player_max_hearts	= 3;
+global.player_hearts		= global.player_max_hearts;
+global.player_keys			= 0;
+global.player_ground_pos	= [];
+global.player_can_pick		= false;
+global.player_can_swim		= false;
+global.player_can_roll		= false;
+#macro MAX_HEARTS	global.player_max_hearts
+#macro HEARTS		global.player_hearts
+#macro KEYS			global.player_keys
+#macro GROUND_POS	global.player_ground_pos
+#macro CAN_PICK		global.player_can_pick
+#macro CAN_SWIM		global.player_can_swim
+#macro CAN_ROLL		global.player_can_roll
+
+// Input Data
 global.player_data[PLAYER.P1, PP.KEY_RIGHT]				= ord("D");
 global.player_data[PLAYER.P1, PP.KEY_LEFT]				= ord("A");          
 global.player_data[PLAYER.P1, PP.KEY_UP]				= ord("W");
@@ -32,4 +47,3 @@ global.player_data[PLAYER.P1, PP.GP_LEFT]				= gp_padl;
 global.player_data[PLAYER.P1, PP.GP_UP]					= gp_padu;
 global.player_data[PLAYER.P1, PP.GP_DOWN]				= gp_padd;
 global.player_data[PLAYER.P1, PP.GP_JUMP]				= gp_face1;
-#endregion

@@ -1,5 +1,5 @@
 {
-    "id": "b6cc1e83-e4d8-49cf-8f13-e657f286f26f",
+    "id": "5d4dd389-bf6a-436e-b6f9-4d7749bd4f64",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "level_restart",

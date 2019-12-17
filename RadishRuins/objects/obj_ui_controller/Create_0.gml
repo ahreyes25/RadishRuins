@@ -28,11 +28,3 @@ menu_length	= array_length_1d(resolutions);
 
 var _resolution = resolutions[menu_index];
 window_update_resolution(_resolution[_.X] / 2, _resolution[_.Y] / 2);
-
-// HUD
-quad_width		= surface_get_width(application_surface)  / 2;
-quad_height		= surface_get_height(application_surface) / 2;
-top_left		= surface_create(quad_width, quad_height);
-top_right		= surface_create(quad_width, quad_height);
-hud_scale		= 1.0;
-hud_alpha		= 1.0;

@@ -1,5 +1,5 @@
 {
-    "id": "739ec52f-d95d-4c17-98fb-191a1582f4bc",
+    "id": "de427118-c125-4a5b-ab18-08d30210f840",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "sfx_jewel_collect",

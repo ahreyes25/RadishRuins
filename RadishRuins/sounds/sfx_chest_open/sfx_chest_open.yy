@@ -1,8 +1,8 @@
 {
-    "id": "67484c30-a30d-494c-8966-d1cc9d275896",
+    "id": "faf14410-46be-463b-b0da-a15ffd420316",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sfx_hidden_jingle",
+    "name": "sfx_chest_open",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

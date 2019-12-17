@@ -7,7 +7,8 @@
         "7442acf7-bf8c-419c-803e-cfabb6bce8ca",
         "c141568f-4e8d-4258-9d23-944fb6b1719a",
         "938dcb99-59b2-4409-a3e8-1dbc7098e883",
-        "66d18527-16b5-4388-8222-150c567a2bb3"
+        "66d18527-16b5-4388-8222-150c567a2bb3",
+        "6bb48097-9dbe-4bd4-ae2b-06cba51e6d12"
     ],
     "filterType": "GMObject",
     "folderName": "World Group",

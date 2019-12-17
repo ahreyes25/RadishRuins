@@ -1,9 +1,11 @@
+player_pos_set_last_touching();
+
 event_inherited();
 
 // General 
-//pid			= PLAYER.P1;	// used for multiplayer -- set in Variable Definitions
-takes_input		= true;			// player vs npc
-has_control		= true;			// used for cutscenes
+//pid			= PLAYER.P1;
+takes_input		= true;
+has_control		= true;
 can_be_hurt		= true;
 hurt_time		= 60;
 entity			= ENTITY.PLAYER;
@@ -27,5 +29,6 @@ sfx_walk_wood_inst		= undefined;
 sfx_walk_sound			= sfx_walk_grass_sound;
 sfx_walk_sound_inst		= undefined;
 
+// Physics
 phy_body = instance_create_layer(x, y, "Instances", obj_physics_body);
 phy_body.owner = id;

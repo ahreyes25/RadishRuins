@@ -44,7 +44,12 @@ audio_falloff_set_model(audio_falloff_linear_distance);
 audio_master_gain(global.sound_mult);
 audio_listener_orientation(0, 1, 0, 0, 0, 1);
 
-global.screen_width  = 2688; 
-global.screen_height = 1242;
+global.screen_width		= 2688; 
+global.screen_height	= 1242;
+global.night_alpha		= 0.85;
 
-// Game Colors
+// Player Spawn Position
+global.map_data = ds_map_create();
+#macro MAP_DATA global.map_data
+
+MAP_DATA[? "rm_test"]	= [1056, 704];

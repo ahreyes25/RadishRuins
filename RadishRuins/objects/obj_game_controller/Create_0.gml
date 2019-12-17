@@ -2,11 +2,15 @@ global_game_data();
 global_player_data();
 global_move_data();
 
-debug				= instance_create_layer(0, 0, "Controllers", obj_debug);
-ui_controller		= instance_create_layer(0, 0, "Controllers", obj_ui_controller);
-light_controller	= instance_create_layer(0, 0, "Controllers", obj_lighting_controller);
-camera				= instance_create_layer(0, 0, "Controllers", obj_camera);
+debug				= undefined;
+ui_controller		= undefined;
+light_controller	= undefined;
+camera				= undefined;
+player				= undefined;
 
+// Sounds
 global.sfx_emitter	= audio_emitter_create();
-sfx_inst_crickets	= sfx_play_array(global.sfx_emitter, sfx_crickets, 1);
-sfx_inst_music		= sfx_play_array(global.sfx_emitter, sfx_music_1, 1);
+sfx_inst_music		= undefined;
+sfx_inst_crickets	= undefined;
+
+// room_goto_next(); --> done once window resizes
