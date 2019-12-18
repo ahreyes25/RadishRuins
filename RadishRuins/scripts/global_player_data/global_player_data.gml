@@ -1,9 +1,9 @@
 #region Enums
 enum PP 
 { 
-	KEY_RIGHT, KEY_LEFT, KEY_UP, KEY_DOWN, KEY_JUMP,
+	KEY_RIGHT, KEY_LEFT, KEY_UP, KEY_DOWN, KEY_JUMP, KEY_ACTION,
 	GP_THRESHOLD, GP_PORT, GP_MOVE_AXIS_HORIZ, GP_MOVE_AXIS_VERT, GP_AIM_AXIS_HORIZ, GP_AIM_AXIS_VERT, 
-	GP_RIGHT, GP_LEFT, GP_UP, GP_DOWN, GP_JUMP,
+	GP_RIGHT, GP_LEFT, GP_UP, GP_DOWN, GP_JUMP, GP_ACTION
 }
 
 enum MOVE
@@ -18,9 +18,9 @@ global.player_max_hearts	= 3;
 global.player_hearts		= global.player_max_hearts;
 global.player_keys			= 0;
 global.player_ground_pos	= [];
-global.player_can_pick		= false;
-global.player_can_swim		= false;
-global.player_can_roll		= false;
+global.player_can_pick		= true;
+global.player_can_swim		= true;
+global.player_can_roll		= true;
 #macro MAX_HEARTS	global.player_max_hearts
 #macro HEARTS		global.player_hearts
 #macro KEYS			global.player_keys
@@ -30,11 +30,12 @@ global.player_can_roll		= false;
 #macro CAN_ROLL		global.player_can_roll
 
 // Input Data
-global.player_data[PLAYER.P1, PP.KEY_RIGHT]				= ord("D");
-global.player_data[PLAYER.P1, PP.KEY_LEFT]				= ord("A");          
-global.player_data[PLAYER.P1, PP.KEY_UP]				= ord("W");
-global.player_data[PLAYER.P1, PP.KEY_DOWN]				= ord("S");
-global.player_data[PLAYER.P1, PP.KEY_JUMP]				= vk_space;
+global.player_data[PLAYER.P1, PP.KEY_RIGHT]				= [ord("D"), vk_right];
+global.player_data[PLAYER.P1, PP.KEY_LEFT]				= [ord("A"), vk_left];          
+global.player_data[PLAYER.P1, PP.KEY_UP]				= [ord("W"), vk_up];
+global.player_data[PLAYER.P1, PP.KEY_DOWN]				= [ord("S"), vk_down];
+global.player_data[PLAYER.P1, PP.KEY_JUMP]				= [ord("J"), ord("X"), vk_space];
+global.player_data[PLAYER.P1, PP.KEY_ACTION]			= [ord("K"), ord("Z")];
    
 global.player_data[PLAYER.P1, PP.GP_THRESHOLD]			= 0.1;
 global.player_data[PLAYER.P1, PP.GP_PORT]				= PLAYER.P1;
@@ -47,3 +48,4 @@ global.player_data[PLAYER.P1, PP.GP_LEFT]				= gp_padl;
 global.player_data[PLAYER.P1, PP.GP_UP]					= gp_padu;
 global.player_data[PLAYER.P1, PP.GP_DOWN]				= gp_padd;
 global.player_data[PLAYER.P1, PP.GP_JUMP]				= gp_face1;
+global.player_data[PLAYER.P1, PP.GP_ACTION]				= [gp_face2, gp_face3, gp_face4];

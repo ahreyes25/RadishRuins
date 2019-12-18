@@ -4,5 +4,8 @@ if (touching_ladder && key_up) {
 	previous_state	= state;
 	state			= player_state_ladder;
 	
+	if (defined(turnip_holding))	
+		turnip_drop(turnip_holding);
+	
 	return true;
 }

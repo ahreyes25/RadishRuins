@@ -1,3 +1,4 @@
+input_object_create();
 player_pos_set_last_touching();
 
 event_inherited();
@@ -32,3 +33,8 @@ sfx_walk_sound_inst		= undefined;
 // Physics
 phy_body = instance_create_layer(x, y, "Instances", obj_physics_body);
 phy_body.owner = id;
+
+// Other
+key_image_index	= 0;
+key_image_speed	= 0.1;
+turnip_holding	= undefined;

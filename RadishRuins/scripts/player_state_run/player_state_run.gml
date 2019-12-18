@@ -20,3 +20,6 @@ player_state_check_fall();
 player_state_check_swim();
 player_state_check_ladder();
 player_state_check_jump();
+
+player_check_turnip_pull();
+player_check_turnip_throw();

@@ -28,4 +28,4 @@ can_be_hurt_default	= true;
 can_be_hurt			= can_be_hurt_default;
 
 // Lights
-lights = light_double_create(x, y - sprite_get_true_height() / 2, 0.75, 0.5);
+lights = light_double_create(x, y - sprite_get_true_height() / 2, 0.6, 0.75);

@@ -15,3 +15,6 @@ player_state_check_idle();
 player_state_check_run();
 player_state_check_swim();
 player_state_check_ladder();
+
+player_check_turnip_pull();
+player_check_turnip_throw();

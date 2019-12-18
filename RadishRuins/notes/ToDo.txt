@@ -1,17 +1,23 @@
-- persistent keys?
-- heart icon
-- items icons
 - moving platforms
 - enemies
 
 - Items:
 	- item 1: pluck turnips (gardner’s glove)
+		- [x] implement functionality
+		- [ ] icon
 	- item 2: swimming item 
+		- [ ] implement functionality
+		- [ ] icon
 	- item 3: break through crates item, roll attack 
+		- [ ] implement functionality
+		- [ ] icon
 - bosses:
-	- boss 1: jump on them
-	- boss 2: throw turnips at them
-	- boss 3: underwater boss
+	- boss 1: jump on them (giant mushroom?)
+	- boss 2: throw turnips at them (bird?)
+	- boss 3: underwater boss (fish?)
 	- boss 4: roll into armored parts to break armor, also have
 	water area and throwing turnips (armored octopus)
-
+	
+- achievements?
+	- turnip juggling
+	- catch a turnip mid air while dying

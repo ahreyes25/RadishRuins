@@ -1,0 +1,1 @@
+audio_emitter_position(sfx_emitter, x, y, 0);

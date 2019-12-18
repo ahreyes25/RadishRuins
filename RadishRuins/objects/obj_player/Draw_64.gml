@@ -1,9 +1,11 @@
 // Hearts
-draw_text(20, 10, string(HEARTS) + "/" + string(MAX_HEARTS));
+draw_sprite(spr_player_head, 0, 50, 50);
+draw_text(70, 45, string(HEARTS) + "/" + string(MAX_HEARTS));
 
 // Number of Keys
-draw_sprite(spr_key, 0, 30, 60);
-draw_text(50, 50, KEYS);
+key_image_index += key_image_speed;
+draw_sprite(spr_key, key_image_index, 50, 100);
+draw_text(70, 90, "x " + string(KEYS));
 
 // Jewels
 
