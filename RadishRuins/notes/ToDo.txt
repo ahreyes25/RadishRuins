@@ -1,5 +1,8 @@
+- player hurt state
+- jump on enemies to kill them
+- throw turnips at enemies to kill them
+- roll into eneies to kill them
 - moving platforms
-- enemies
 
 - Items:
 	- item 1: pluck turnips (gardner’s glove)

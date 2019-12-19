@@ -19,11 +19,6 @@ enum _
 	X, 
 	Y	
 }
-
-enum ENTITY 
-{
-	PLAYER	
-}
 #endregion
 
 global.paused				= false;
@@ -53,3 +48,6 @@ global.map_data = ds_map_create();
 #macro MAP_DATA global.map_data
 
 MAP_DATA[? "rm_test"]	= [1056, 704];
+
+global.current_time_frame	= 0;
+#macro CURRENT_TIME_FRAME	global.current_time_frame

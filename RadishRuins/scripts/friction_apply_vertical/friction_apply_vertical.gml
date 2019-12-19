@@ -1,0 +1,1 @@
+vy = approach(vy, 0, fric_temp); 

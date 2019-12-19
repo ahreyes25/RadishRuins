@@ -4,7 +4,7 @@ event_inherited();
 takes_input		= false;		// player vs npc
 has_control		= false;		// used for cutscenes
 entity			= ENTITY.PLAYER;
-player_update_movement();
+entity_update_movement();
 
 // States
 state			= radish_state_idle;

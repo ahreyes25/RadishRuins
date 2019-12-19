@@ -9,4 +9,5 @@ obj_player.x	= _x;
 obj_player.y	= _y;
 
 // Other
-obj_player.has_control = true;
+obj_player.has_control	= true;
+obj_player.alarm[0]		= -1;

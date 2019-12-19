@@ -43,7 +43,7 @@ else
 	
 repeat(abs(_vx)) {
 	// Hold Up to Walk On Pass Through Ramps
-	if (key_up) {
+	if (takes_input && key_up) {
 		if (place_meeting(x + sign(vx), y, obj_solid_slope_pass_parent) && !place_meeting(x + sign(vx), y - 1, obj_solid_slope_pass_parent))
 			y -= 1;
 	} 

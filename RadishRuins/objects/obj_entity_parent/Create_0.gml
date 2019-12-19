@@ -1,3 +1,4 @@
+#region Platforming
 vx = 0;
 vy = 0;
 cx = 0;
@@ -14,18 +15,17 @@ in_water			= false;
 on_rock				= undefined;
 on_wood				= undefined;
 
-facing				= 1;
-fall_timer			= 0;
-
-state				= undefined;
-facing				= DIR.RIGHT;
-scale				= 1;
-
 wall_left	= place_meeting(x - 1, y, obj_solid);
 wall_right	= place_meeting(x + 1, y, obj_solid);
+#endregion
 
-can_be_hurt_default	= true;
-can_be_hurt			= can_be_hurt_default;
+facing			= sign(image_xscale);
+state			= undefined;
+scale			= 1;
+can_be_hurt		= true;
 
-// Lights
-lights = light_double_create(x, y - sprite_get_true_height() / 2, 0.6, 0.75);
+lights			= light_double_create(x, (bbox_top + bbox_bottom) / 2, 0.6, 0.75);
+sfx_emitter		= audio_emitter_create()
+
+phy_body		= instance_create_layer(x, y, "Instances", obj_physics_body);
+phy_body.owner	= id;

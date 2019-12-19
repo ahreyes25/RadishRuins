@@ -12,3 +12,6 @@ image_xscale = facing;
 // Wall Check
 wall_left  = place_meeting(x - 1, y, obj_solid);
 wall_right = place_meeting(x + 1, y, obj_solid);
+
+entity_update_movement();
+audio_emitter_position(sfx_emitter, x, y, 0);	

@@ -1,3 +1,5 @@
+CURRENT_TIME_FRAME++;
+
 if (room == rm_init) {
 	if (!exists(ui_controller))
 		ui_controller = instance_create_layer(0, 0, "Controllers", obj_ui_controller);

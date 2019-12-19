@@ -28,4 +28,10 @@ switch (state) {
 		image_speed		= 1.0 * (vy / vy_max_ladder);
 		break;
 }
-draw_self();
+
+// Flash When Invincible
+if (!can_be_hurt && CURRENT_TIME_FRAME mod 20 >= 0 && CURRENT_TIME_FRAME mod 20 <= 10) {
+	// Do Nothing
+}
+else 
+	draw_self();

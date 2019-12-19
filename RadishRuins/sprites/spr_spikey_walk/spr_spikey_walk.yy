@@ -2,7 +2,7 @@
     "id": "36217567-8aa2-4f4c-9aa3-a183fc50b373",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_crawler_walk",
+    "name": "spr_spikey_walk",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -175,6 +175,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 100,
-    "xorig": 54,
-    "yorig": 73
+    "xorig": 53,
+    "yorig": 54
 }
