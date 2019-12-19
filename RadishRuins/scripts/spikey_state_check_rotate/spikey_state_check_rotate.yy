@@ -1,8 +1,8 @@
 {
-    "id": "f9009848-3312-4b74-8dce-5e7883de38c1",
+    "id": "9a95a733-d16c-488a-9f54-f08e2926c468",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "spikey_state_check_walk_ceiling",
+    "name": "spikey_state_check_rotate",
     "IsCompatibility": false,
     "IsDnD": false
 }

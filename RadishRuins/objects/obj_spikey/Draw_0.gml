@@ -9,3 +9,4 @@ switch (state) {
 		break;
 }
 draw_self();
+draw_circle(bbox_right - 1, bbox_bottom, 5, false);

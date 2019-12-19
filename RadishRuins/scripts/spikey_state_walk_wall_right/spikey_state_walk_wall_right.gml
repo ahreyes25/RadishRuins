@@ -9,5 +9,4 @@ if (facing == DIR.RIGHT)
 if (facing == DIR.LEFT)
 	move_down();
 	
-spikey_state_check_walk_flat();
-spikey_state_check_walk_ceiling();
+spikey_state_check_rotate();

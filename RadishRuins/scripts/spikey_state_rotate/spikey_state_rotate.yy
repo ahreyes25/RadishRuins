@@ -1,8 +1,8 @@
 {
-    "id": "596dcf82-8dc6-4d9b-9ca2-4cd26182bfaf",
+    "id": "1cef1945-3033-4b3a-a946-c7dff5c3c55d",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "spikey_state_check_walk_wall_left",
+    "name": "spikey_state_rotate",
     "IsCompatibility": false,
     "IsDnD": false
 }

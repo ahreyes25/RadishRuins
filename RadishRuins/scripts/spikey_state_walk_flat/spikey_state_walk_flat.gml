@@ -11,5 +11,4 @@ if (facing == DIR.RIGHT)
 if (facing == DIR.LEFT)
 	move_left();
 
-spikey_state_check_walk_wall_left();
-spikey_state_check_walk_wall_right();
+spikey_state_check_rotate();

@@ -8,3 +8,5 @@ if (facing == DIR.RIGHT)
 	move_left();
 if (facing == DIR.LEFT)
 	move_right();
+	
+spikey_state_check_rotate();

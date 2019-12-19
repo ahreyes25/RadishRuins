@@ -9,3 +9,4 @@ turnip_death	= true;
 roll_death		= true;
 
 target_angle	= undefined;
+next_state		= undefined;
